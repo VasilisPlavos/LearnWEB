@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+    <style>
+        #body-style {
+            max-width: 580px;
+            margin: auto;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+
+<body id="body-style">
+    <section class="section">
+        <div id="companies">
+            <!-- here is the companies chips -->
+            <span class="tag">Brain Insurtech [1]</span>
+        </div>
+        <div id="createContact">
+            <button class="button is-light is-fullwidth" style="margin:10px 0px;">NEW CONTACT</button>
+        </div>
+
+        <div id="createContactForm" class="" style="margin-bottom: 10px;">
+
+            <form>
+                <div class="box">
+                    <div class="field">
+                        <label class="label">Fullname</label>
+                        <div class="control">
+                            <input class="input is-static" type="text" placeholder="Enter fullname">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Company</label>
+                        <div class="control">
+                            <input class="input is-static" type="text" placeholder="Enter company">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Phone</label>
+                        <div class="control">
+                            <input class="input is-static" type="tel" placeholder="Enter contact phone number">
+                        </div>
+                    </div>
+                    <p class="control">
+                        <a class="button">
+                            SAVE CONTACT
+                        </a>
+                    </p>
+
+                </div>
+
+            </form>
+
+        </div>
+
+
+
+
+
+
+
+        <div id="contacts">
+            <!-- here is the contacts -->
+            <div id="contactFullfield" style="margin-bottom: 10px;">
+                <div class="box">
+                    <div class="field">
+                        <label class="label">Fullname</label>
+                        <div class="control">
+                            <input class="input is-static" type="text" placeholder="Enter fullname"
+                                value="Vasilis Plavos" readonly>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Company</label>
+                        <div class="control">
+                            <input class="input is-static" type="text" placeholder="Enter company"
+                                value="Brain Insurtech" readonly>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Phone</label>
+                        <div class="control">
+                            <input class="input is-static" type="tel" placeholder="Enter contact phone number"
+                                value="+306971234567" readonly>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>
